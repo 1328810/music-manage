@@ -1,0 +1,47 @@
+.content-box {
+    position: absolute;
+    left: 150px;
+    right: 0;
+    top: 70px;
+    bottom: 0;
+    overflow-y: scroll;
+    -webkit-transition: left .3s ease-in-out;
+    transition: left .3s ease-in-out;
+}
+
+.content {
+    width: auto;
+    padding: 20px;
+}
+
+.content-collapse {
+    left: 65px;
+}
+
+.container {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.crumbs {
+    margin-bottom: 20px;
+}
+
+.pagination {
+    margin: 20px;
+    text-align: right;
+}
+
+.table {
+    min-width: 800px;
+}
+
+.el-dialog_body {
+    padding: 10px 20px 0 10px;
+}
+
+.mgb20 {
+    margin-bottom: 20px;
+}
